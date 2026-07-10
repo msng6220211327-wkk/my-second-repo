@@ -1,0 +1,23 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  width: min(1126px, 100%);
+  box-sizing: border-box;
+  padding: 16px;
+  transform: translateX(-50%);
+  background-color: #d3d1d1;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  padding-top: 72px;
+}
